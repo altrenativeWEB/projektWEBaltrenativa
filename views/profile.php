@@ -2,7 +2,7 @@
 
 include "models/user.php";
 
-$user = new \webaltrenativa\models.User(1, "Sandi", 25, "40932740");
+$user = new \webaltrenativa\models\User(1, "Sandi", 25, "40932740");
 
 ?>
 
