@@ -1,10 +1,15 @@
+<?php 
+?>
+
 <html>
     
     <head>
     </head>
     <body>
-        <div>Oi ca ima?</div>
-        git
+       <?php
+        include "views/profile.php";
+        var_dump($user);
+       ?>
     </body>
     
 </html>
