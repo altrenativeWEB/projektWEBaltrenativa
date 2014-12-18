@@ -10,13 +10,13 @@ $user = new \webaltrenativa\models\User(1, "Sandi", 25, "40932740");
     <p>
         Username: 
         <?php
-            echo ($user->username);
+            echo $user->username.'<br>';
         ?>
     </p>
     <p>
         Age:
         <?php
-            echo ($user->age);
+            print($user->age);
         ?>
     </p>
 </div>
